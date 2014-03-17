@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="top|center"
+	android:orientation="vertical"
+	android:background="@drawable/degradado"
+	tools:context=".MainActivity" >
+
+	<TextView
+		android:id="@+id/textView1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/strSistemaDeCaptura" />
+	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="top|center"
+		android:orientation="vertical"
+		android:background="@drawable/degradado"
+		tools:context=".MainActivity" >
+
+	<Button
+		android:id="@+id/botonCaptura"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/degraboton"
+		android:text="@string/strCaptura" />
+
+	<Button
+		android:id="@+id/botonCapturaPedido"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/degraboton"
+		android:text="Captura Pedido" />
+	
+	
+	<Button
+		android:id="@+id/botonAcercaDe"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/degraboton"
+		android:text="@string/strAcercaDe" />
+
+	<Button
+		android:id="@+id/botonSalir"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/degraboton"
+		android:text="@string/strSalir" />
+	</LinearLayout>
+
+</LinearLayout>

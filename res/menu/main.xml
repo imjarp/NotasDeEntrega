@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+	<item
+	android:id="@+id/itemCaptura"
+	android:orderInCategory="100"
+	android:showAsAction="ifRoom"
+	android:title="@string/strCaptura"/>	
+	
+	<item
+	android:id="@+id/itemAcercaDe"
+	android:orderInCategory="100"
+	android:showAsAction="ifRoom"
+	android:title="@string/strAcercaDe"/>
+	
+	<item
+	android:id="@+id/itemSalir"
+	android:orderInCategory="100"
+	android:showAsAction="ifRoom"
+	android:title="@string/strSalir"/>
+
+
+</menu>

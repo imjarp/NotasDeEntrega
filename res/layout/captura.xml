@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/degradado"
+	android:orientation="vertical" >
+	
+	    <Button
+    	android:id="@+id/botonSacarFoto"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:background="@drawable/degraboton"
+    	android:text="@string/strSacarFoto" />
+	    
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="10dp">
+ 
+
+ 
+        <!-- To display picture taken -->
+        <ImageView
+            android:id="@+id/imgPreview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" 
+            android:contentDescription="Prevista"/>
+
+    </LinearLayout>
+
+       <TextView
+    	android:id="@+id/textView1"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/strOrdenDeEntrega" />
+	    
+    <EditText
+    	android:id="@+id/editOrdenEntrega"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:ems="10"
+    	android:inputType="text">
+
+    	<requestFocus />
+    </EditText>
+
+    <Button
+    	android:id="@+id/botonEnviar"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:background="@drawable/degraboton"
+    	android:text="@string/strEnviar" />
+
+    <TextView
+    	android:id="@+id/error"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" />
+
+</LinearLayout>

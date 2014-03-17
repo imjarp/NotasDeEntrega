@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">NES</string>
+	<string name="action_settings">Settings</string>
+	<string name="hello_world">Hello world!</string>
+	<string name="acercade">Compañía XXXXXX. Sistema de captura de notas de entrega. </string>
+	<string name="title_activity_acerca_de">AcercaDe ...</string>
+	<string name="contacto">Si necesita ayuda llame al (5255) 1234 1234 o envíe mensaje a la cuenta soporte@captura.notas.com</string>
+	<string name="opcioncaptura">Captura</string>
+	<string name="strSalir">Salir</string>
+	<string name="strCaptura">Captura</string>
+	<string name="strAcercaDe">Acerca de</string>
+	<string name="title_activity_captura">Captura</string>
+	<string name="strEnviar">Enviar</string>
+	<string name="strOrdenDeEntrega">Orden de entrega</string>
+	<string name="strSistemaDeCaptura">Sistema de captura de ordenes de entrega</string>
+	<string name="strSacarFoto">Sacar foto</string>
+	<string name="pedido_title_label">Pedido</string>
+	<string name="pedido_details_label">Detalle</string>
+	<string name="pedido_title_hint">Debe captura un número de pedido</string>
+</resources>
